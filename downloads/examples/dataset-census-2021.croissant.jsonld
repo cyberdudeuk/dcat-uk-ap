@@ -1,0 +1,32 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "sc": "https://schema.org/",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "dct": "http://purl.org/dc/terms/"
+  },
+  "@type": "sc:Dataset",
+  "@id": "https://example.org/dcat-ap-uk/examples/census-2021-population-by-age",
+  "name": "Usual resident population by five-year age band, England and Wales, Census 2021",
+  "description": "Synthetic example. Counts of usual residents on Census Day 2021 by five-year age band and local authority.",
+  "identifier": "census-2021-age-5y",
+  "url": "https://example.org/dcat-ap-uk/examples/census-2021-population-by-age",
+  "license": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "isAccessibleForFree": true,
+  "temporalCoverage": "2021-03-21/2021-03-21",
+  "spatialCoverage": [
+    {
+      "@id": "http://statistics.data.gov.uk/id/statistical-geography/K04000001"
+    }
+  ],
+  "inLanguage": [
+    "en",
+    "cy"
+  ],
+  "publisher": {
+    "@id": "https://www.gov.uk/government/organisations/office-for-national-statistics"
+  },
+  "dct:conformsTo": "http://mlcommons.org/croissant/1.1"
+}

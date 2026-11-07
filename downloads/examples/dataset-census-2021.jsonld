@@ -1,0 +1,45 @@
+{
+  "@context": "https://cyberdudeuk.github.io/dcat-ap-uk/downloads/dcat-ap-uk.context.jsonld",
+  "class": "Dataset",
+  "id": "https://example.org/dcat-ap-uk/examples/census-2021-population-by-age",
+  "title": "Usual resident population by five-year age band, England and Wales, Census 2021",
+  "description": "Synthetic example. Counts of usual residents on Census Day 2021 by five-year age band and local authority.",
+  "identifier": "census-2021-age-5y",
+  "inSeries": [
+    "https://example.org/dcat-ap-uk/examples/census-series"
+  ],
+  "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+  "contactPoint": [
+    {
+      "fn": "Census customer services",
+      "hasURL": "https://www.ons.gov.uk/aboutus/contactus"
+    }
+  ],
+  "accessRights": "ukcl:access-rights/open",
+  "securityClassification": "ukcl:security-classification/official",
+  "personalData": "ukcl:personal-data/anonymised",
+  "licence": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "accrualPeriodicity": "eufreq:NEVER",
+  "temporal": [
+    {
+      "startDate": "2021-03-21",
+      "endDate": "2021-03-21"
+    }
+  ],
+  "spatial": [
+    "http://statistics.data.gov.uk/id/statistical-geography/K04000001"
+  ],
+  "conformsTo": [
+    "https://www.gov.uk/government/publications/recommended-open-standards-for-government/tabular-data-standard"
+  ],
+  "referenceData": [
+    "https://example.org/dcat-ap-uk/examples/age-bands-5y"
+  ],
+  "theme": [
+    "ukcl:theme/society"
+  ],
+  "language": [
+    "eulang:ENG",
+    "eulang:CYM"
+  ]
+}

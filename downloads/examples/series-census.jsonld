@@ -1,0 +1,15 @@
+{
+  "@context": "https://cyberdudeuk.github.io/dcat-ap-uk/downloads/dcat-ap-uk.context.jsonld",
+  "class": "DatasetSeries",
+  "id": "https://example.org/dcat-ap-uk/examples/census-series",
+  "title": "Census of population, England and Wales",
+  "description": "Every ten years, a count of all people and households in England and Wales. Synthetic example of a series record.",
+  "publisher": "https://www.gov.uk/government/organisations/office-for-national-statistics",
+  "accrualPeriodicity": "eufreq:OTHER",
+  "theme": [
+    "ukcl:theme/society"
+  ],
+  "spatial": [
+    "http://statistics.data.gov.uk/id/statistical-geography/K04000001"
+  ]
+}
